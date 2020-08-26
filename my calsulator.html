@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal() {
+            var a = parseInt(document.getElementById("value1").value);
+            var b = parseInt(document.getElementById("value2").value);
+            var op = document.getElementById("operator").value;
+            var calc;
+            if(op == "add"){
+                calc = a + b;
+            } 
+            else if(op == "min"){
+                calc = a - b;
+            }
+            else if(op == "div"){
+                calc = a / b;
+            }
+            else if(op == "mul"){
+                calc = a * b;
+            }
+            else if(op == "mod"){
+                calc = a % b;
+            }
+            else if(op == "sqr"){
+                calc = Math.sqrt(9);
+            }
+            else if(op == "cos"){
+                calc = Math.tan(90);
+            } 
+            document.getElementById("result").innerHTML = calc;
+        }
+
+        
+    </script>
+</head>
+<body>
+    <form action="">
+        <b>value1:</b> <input type="text" id="value1" ><br>
+        <b>value2:</b> <input type="text" id="value2"><br>
+        Operator:
+        <select name="" id="operator">
+            <option >add</option>
+            <option >min</option>
+            <option >div</option>
+            <option >mul</option>
+            <option >mod</option>
+            <option >sqr</option>
+            <option >cos</option>
+        </select>
+        <button type="button" onclick="cal()">CALCULATE</button>
+        <div id="result"></div>
+    </form>
+</body>
+</html>

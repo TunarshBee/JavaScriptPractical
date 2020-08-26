@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title>Advance form</title>
+	<script src="form.js"></script>
+</head>
+<body>
+	<form>
+		<h1>Sign Up</h1><hr> 
+	<div class="form-group">
+		<label for="first-name"> Firstname</label>
+		<input type="text" name="" id="Surname" autofocus="" required="required" maxlength="10">
+	</div>
+
+	<div class="form-group">
+		<label for="last-name"> Lasttname</label>
+		<input type="text" name="" id="Surname"  required="required" maxlength="10">
+	</div>
+
+	<div class="form-group">
+		<label for="other-name"> Other name</label>
+		<input type="text" name="" id="others name" required="required" maxlength="15">
+	</div>
+
+	<div class="form-group">
+		<label for="Date-of-Birth"> Date of Birth</label>
+		<input type="date" name="" id="user-email" required="required">
+	</div>
+
+	<div class="form-group">
+		<label for="user-password"> Password</label>
+		<input type="Password" name="password" id="user-password" required="required" maxlength="15">
+	</div>
+
+	<div class="form-group">
+		<label for="user-password">Confirm Password</label>
+		<input type="Password" name="cpassword" id="user-password" required="required" maxlength="15">
+	</div>
+
+	<div class="form-group"> 
+		<label for="user-contact"> Contact</label>
+		<input type="phone" name="" id="user-contact" required="">
+	</div>
+
+	<div class="form-group">
+		<label for="user-email"> Email</label>
+		<input type="email" name="" id="user-email" required="required">
+	</div>
+
+	<div class="form-group">
+		<label for="user-country"> Select country</label>
+		<input list="country" name="" required="required">
+		<datalist id="country">
+			<option>Nigeria</option>
+			<option>India</option>
+			<option>America</option>
+			<option>Canada</option>
+			<option>China</option>
+		</datalist>
+
+	</div>
+
+	<!-- <input type="submit" name="" class="btn" onclick="alert2()"> -->
+	<button type="submit" onclick=alert2()> Submit</button>
+	</form>
+
+</body>
+</html>

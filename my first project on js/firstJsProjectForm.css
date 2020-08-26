@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(35deg, blue,red);
+    background-size: 100%;
+}
+#container{
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+input{
+    margin-bottom: 30px;
+}

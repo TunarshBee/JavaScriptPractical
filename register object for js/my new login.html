@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big-div{
+            background-color: rgb(202, 103, 103);
+            max-width: 800px;
+            max-height: 500px;
+            padding: 2px;
+            margin: 100px auto;
+            margin-left: 300px;
+            display: inline-flex;
+            overflow: hidden;
+        }
+        .small-div, .small-div1{
+            display: inline-flex;
+        }
+        
+        img{
+            width: 400px;
+            border-radius: 15px;
+            height:450px;
+        }
+        #form{
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            color: #fff;
+        }
+        input{
+            width: 360px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            margin: 5px;
+        }
+        input:focus{
+            border: none;
+        }
+        [type='submit']{
+            background-color: rgb(127, 235, 127);
+            color: red;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="big-div">
+        <div class="small-div">
+            <img src="person-holding-laboratory-flask-2280571.jpg" alt="">
+            <script src="myNewLogin.js"></script>
+        </div>
+        <div class="small-div1">
+            <div id="form">
+            <!-- <form onsubmit="detailsCollector()"> -->
+                <h1>Register</h1>
+                <input type="text" name="" id="surname" placeholder="Enter your full name here"><br>
+                <input type="email" name="" id="email" placeholder="Enter your email address"><br>
+                <input type="tel" name="" id="phone" placeholder="Enter your username "><br>
+                <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+                <!-- <input type="password" name="" id="" placeholder="Confirm your passwoed"><br> -->
+                <!-- <input type="submit" value="REGISTER NOW" onclick="detailsCollector()"> -->
+                <button onclick="detailsCollector()" >REGISTER</button>
+            <!-- </form> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

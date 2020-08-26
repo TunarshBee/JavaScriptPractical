@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+#containar{
+    background: linear-gradient(35deg, blue, red) ;
+    width: 100%;
+    height: 100vh;
+}
+#h1, #h2{
+    text-align: center;
+}
+#section1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: seashell;
+    margin-top: 20px;
+}
+#div2, #div3,#div4{
+    width: 230px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+[type='submit']{
+    color: seashell;
+    text-decoration: none;
+    margin-left: 42%;
+    margin-top: 40px;
+    line-height: 40px;
+    padding: 20px;
+    letter-spacing: 3px;
+    background: linear-gradient(35deg, blue, red);
+}
